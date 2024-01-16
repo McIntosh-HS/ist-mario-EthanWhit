@@ -59,6 +59,8 @@ git push
 - `p` - paste
 - `#p` - paste number of times
 - `ci"` - delete inside of parenthesis and enter insert mode
-- `escape` - exit insert mode
+- `i` - enter insert mode
+- `R` - enter REPLACE mode
+- `escape` - exit insert/replace mode
 - `:wq` - save and quit
 
