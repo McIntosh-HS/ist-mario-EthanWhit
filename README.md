@@ -64,3 +64,5 @@ git push
 - `escape` - exit insert/replace mode
 - `:wq` - save and quit
 
+## Extra practice
+Create another program named `asciiart.c`. You can create it from scratch with `vim asciiart.c`, or make a copy of your mario file `cp mario.c asciiart.c`. Write a program that uses `printf` statements to create your own image using ascii characters. Use gcc to compile and run with `./asciiart`. Use the three git commands above to update your repo on GitHub.
