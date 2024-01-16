@@ -4,13 +4,13 @@ In this assignment, you will get experience with c's `printf` statement.
 ## hello.c
 Let's remember how to compile and run a program. First, let's `cat` out the contents of `hello.c`
 
-```shell
+```bash
 cat hello.c
 ```
 
 This program is using the `printf` function from the `stdio.h` library. `printf` has several special *metacharacters* that control aspects of the output. For now, the metacharacter we are concerned with is `\n`, which prints out a newline. Now compile an run the program.
 
-```shell
+```bash
 gcc hello.c -o hello
 ./hello
 ```
@@ -20,7 +20,7 @@ Next, let's use `vim` to edit the program to print out a different message. Open
 ## mario.c
 Next, let's create a new file named `mario.c`. You can do so by making a copy of hello.c. This way, we do not need to retype all of the *boiler plate code* and can just focus on editing the file to make changes.
 
-```shell
+```bash
 cp hello.c mario.c
 ```
 
@@ -41,14 +41,14 @@ Use the *yank* command to copy the `printf` line with `yy`. Next paste the copie
 
 To compile and run your code, rerun `gcc` on the `mario.c` file.
 
-```shell
+```bash
 gcc mario.c -o mario
 ./mario
 ```
 
 When your program works as intended, use git to update your repository and push your changes to github.
 
-```shell
+```bash
 git add .
 git commit -m "Completed mario assignment"
 git push
