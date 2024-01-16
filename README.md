@@ -54,3 +54,11 @@ git commit -m "Completed mario assignment"
 git push
 ```
 
+## vim tips
+- `yy` - copy entire line
+- `p` - paste
+- `#p` - paste number of times
+- `ci"` - delete inside of parenthesis and enter insert mode
+- `escape` - exit insert mode
+- `:wq` - save and quit
+
